@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+@import url('./pico.sand.css');
+
+:root {
+  --Orange: hsl(26, 100%, 55%);
+  --Pale-orange: hsl(25, 100%, 94%);
+  --Very-vark-blue: hsl(220, 13%, 13%);
+  --Dark-grayish-blue: hsl(219, 9%, 45%);
+  --Grayish-blue: hsl(220, 14%, 75%);
+  --Light-grayish-blue: hsl(223, 64%, 98%);
+  --White: hsl(0, 0%, 100%);
+  --Black: hsl(0, 0%, 0%);
+  --Lightbox-background: hsla(0, 0%, 0%, 0.75);
+
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 16px;
+}
+
+main {
+  min-height: 100vh;
+}
+
+.attribution {
+  padding: 2rem;
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
