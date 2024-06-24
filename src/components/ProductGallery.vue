@@ -57,6 +57,7 @@ function previous() {
 
 <style scoped>
 .product-gallery {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(5, 1fr);
@@ -69,8 +70,7 @@ function previous() {
 }
 
 .slider img {
-        border-radius: 1rem;
-    overflow: hidden;
+    border-radius: 1rem;
 }
 
 .slider-control {
@@ -132,7 +132,7 @@ function previous() {
         gap: 0;
     }
 
-    .slider {
+    .slider img {
         border-radius: 0;
     }
 

@@ -176,6 +176,12 @@ section {
   color: var(--Very-vark-blue);
 }
 
+@media screen and (width >=1440px) {
+  .product-details{
+    max-width: 1200px;
+  }
+}
+
 @media screen and (width <=1024px) {
   .product-details {
     padding: 0;
