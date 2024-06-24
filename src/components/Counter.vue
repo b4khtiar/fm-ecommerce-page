@@ -32,6 +32,7 @@ const substractCount = () => {
     justify-content: space-between;
     align-items: center;
     background-color: var(--Light-grayish-blue);
+    border-radius: 0.25rem;
 }
 
 .quantity-button {
@@ -50,6 +51,16 @@ const substractCount = () => {
 @media screen and (width <= 1024px) {
     .quantity {
             width: 100%;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .quantity {
+        background-color: #282828;
+    }
+
+    .quantity-button {
+        background-color: transparent;
     }
 }
 </style>

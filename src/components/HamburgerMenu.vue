@@ -18,6 +18,8 @@ const toggle = () => {
 
 <style scoped>
 .hamburger-menu {
+    position: relative;
+    z-index: 5;
     width: 24px;
     height: 24px;
     cursor: pointer;
@@ -76,5 +78,9 @@ const toggle = () => {
     transform: rotate(-45deg);
     width: 24px;
     transition: transform .3s, width .3s ease-out;
+}
+
+.hamburger-menu.active {
+    position: fixed;
 }
 </style>
